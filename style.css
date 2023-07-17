@@ -1,0 +1,90 @@
+.white-box {
+    background-color: white;
+    border: solid black 2px;
+    width: 400px;
+    height: 300px;
+
+    position: relative;
+    top: 200px;
+    left: 200px;
+    /* margin: 200px auto auto 200px; */
+}
+.centre {
+    background-color: #c40e2f;
+    width: 150px;
+    height: 0;
+    /* margin: 50px 0 0 125px; */
+    border-top: solid 76px #c40e2f;
+    border-bottom: solid 76px rgb(42, 54, 187);
+    border-radius: 50%;
+
+    position: absolute;
+    top: 75px;
+    left: 125px;
+
+    transform: rotate(40deg);
+}
+
+.yin {
+    background-color: #c40e2f;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+
+    margin-top: -40px;
+}
+
+.yang {
+    background-color: rgb(42, 54, 187);
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+
+    margin-top: -70px;
+    margin-left: 75px;
+}
+
+.full {
+    background-color: black;
+    width: 70px;
+    height: 12px;
+    margin-bottom: 8px;
+}
+
+.half {
+    background-color: white;
+    width: 10px;
+    height: 12px;
+    margin-bottom: 8px;
+
+    border-left: 30px black solid;
+    border-right: 30px black solid;
+}
+
+.top-left {
+    position: absolute;
+    top: 40px;
+    left: 56px;
+    transform: rotate(-55deg);
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 40px;
+    left: 56px;
+    transform: rotate(-125deg);
+}
+
+.top-right {
+    position: absolute;
+    top: 40px;
+    right: 56px;
+    transform: rotate(55deg);
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 40px;
+    right: 56px;
+    transform: rotate(125deg);
+}
